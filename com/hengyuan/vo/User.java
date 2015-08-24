@@ -7,6 +7,14 @@ package com.hengyuan.vo;
 import java.io.Serializable;
 
 public class User implements Serializable {
+	public User() {
+		super();
+	}
+	public User(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
 	/**
 	 * 
 	 */
